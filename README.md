@@ -1,23 +1,38 @@
 # cppnb
 
-**cppnb** (C++ Notebook) is a native Jupyter-style notebook environment built with C++ using **Dear ImGui**, **TextEditor**, **ImPlot**, and **imgui_markdown** — powered by **GLFW** or **SDL2**. This project brings an interactive notebook experience, similar to Jupyter, to C++ developers in a fast and lightweight desktop application.
+🚧 **Work in Progress — Initial Scaffolding Stage**  
+A native C++ Jupyter-style notebook built with **Dear ImGui**, **TextEditor**, **ImPlot**, and **Markdown** rendering.
+
+Designed for:
+- ✍️ Note-taking in Markdown
+- ⚙️ Executable C++ code cells
+- 📊 Visualizing data via ImPlot
+- 🤖 Learning & building AI/ML projects with libraries like `Eigen`, `xtensor`, `Shogun`, etc.
 
 ---
 
-## 🚧 Project Status
+## 🧠 Why cppnb?
 
-**Currently in development** — this is an early-stage scaffold. The core architecture is being laid out, with UI, runtime, and code execution logic coming together. Contributions and suggestions are welcome even at this stage.
+As a student learning AI/ML using C++, I needed a lightweight, interactive notebook — similar to Jupyter — but native to C++. This tool is being developed to streamline that workflow and give me full control over execution, plotting, and layout.
 
 ---
 
-## ✨ Features (Planned / In Progress)
+## 📦 Planned Stack
 
-- 📝 **Notebook interface** with code cells, markdown cells, and output areas
-- ✍️ Integrated **TextEditor** for syntax-highlighted code input
-- 🧮 **On-the-fly compilation & execution** of C++ code blocks
-- 📊 **Visualization support** with **ImPlot**
-- 📚 Support for **Markdown rendering** using `imgui_markdown`
-- ⚙️ Modular core architecture for easy extension
-- 💾 Load/save notebooks with `.cppnb` format
+- **UI**: Dear ImGui
+- **Text Editing**: ImGuiColorTextEdit
+- **Markdown**: imgui-markdown
+- **Plotting**: ImPlot
+- **Backend**: SDL2 or GLFW (configurable)
+- **Build System**: CMake
+
+---
+
+## ⏳ Current Status
+
+This repo is currently being scaffolded.  
+Expect code pushes, architecture setup, and examples over the coming weeks.
+
+Stay tuned!
 
 ---
