@@ -36,3 +36,33 @@ Expect code pushes, architecture setup, and examples over the coming weeks.
 Stay tuned!
 
 ---
+
+
+
+### ✅ **Initial Setup**
+- [x] Set up the basic project structure and CMake configuration
+- [x] Configure dependencies (GLFW, ImGui, SDL2, etc.)
+- [x] Implement basic UI elements (Font loading, window initialization)
+
+### ✅ **Code Editor**
+- [x] Implement code editor for writing and modifying C++ code
+- [x] Enable basic code compilation and execution
+- [x] Display output of the code execution (successful or errors)
+- [x] Handle syntax errors (like missing semicolons) and show relevant messages
+
+### ✅ **Dynamic Code Generation**
+- [x] Generate dynamic C++ code from user input
+- [x] Implement logic to modify and generate new code snippets during execution
+
+### ✅ **Error Handling**
+- [x] Display error messages (e.g., missing semicolons) in the console
+
+### ✅ **Output Handling**
+- [x] Display output from the C++ program (like `cout` statements)
+- [x] Handle and display runtime errors in a user-friendly manner
+
+### 🚧 **UI Enhancements**
+- [ ] Improve the user interface with additional features (syntax highlighting, auto-complete)
+- [ ] Add interactive elements for better user experience
+- [ ] Provide a rich feedback system for errors (highlighting, suggestions)
+
