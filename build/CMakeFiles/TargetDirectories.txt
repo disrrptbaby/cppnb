@@ -1,0 +1,15 @@
+/Users/apple/Desktop/cppnb/build/CMakeFiles/glad.dir
+/Users/apple/Desktop/cppnb/build/CMakeFiles/cppnb.dir
+/Users/apple/Desktop/cppnb/build/CMakeFiles/edit_cache.dir
+/Users/apple/Desktop/cppnb/build/CMakeFiles/rebuild_cache.dir
+/Users/apple/Desktop/cppnb/build/third_party/imgui/CMakeFiles/imgui.dir
+/Users/apple/Desktop/cppnb/build/third_party/imgui/CMakeFiles/edit_cache.dir
+/Users/apple/Desktop/cppnb/build/third_party/imgui/CMakeFiles/rebuild_cache.dir
+/Users/apple/Desktop/cppnb/build/third_party/TextEditor/CMakeFiles/TextEditor.dir
+/Users/apple/Desktop/cppnb/build/third_party/TextEditor/CMakeFiles/edit_cache.dir
+/Users/apple/Desktop/cppnb/build/third_party/TextEditor/CMakeFiles/rebuild_cache.dir
+/Users/apple/Desktop/cppnb/build/third_party/imgui_markdown/CMakeFiles/edit_cache.dir
+/Users/apple/Desktop/cppnb/build/third_party/imgui_markdown/CMakeFiles/rebuild_cache.dir
+/Users/apple/Desktop/cppnb/build/third_party/ImPlot/CMakeFiles/ImPlot.dir
+/Users/apple/Desktop/cppnb/build/third_party/ImPlot/CMakeFiles/edit_cache.dir
+/Users/apple/Desktop/cppnb/build/third_party/ImPlot/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/apple/Desktop/cppnb/build/cmake_install.cmake",
+		"/Users/apple/Desktop/cppnb/build/third_party/imgui/cmake_install.cmake",
+		"/Users/apple/Desktop/cppnb/build/third_party/TextEditor/cmake_install.cmake",
+		"/Users/apple/Desktop/cppnb/build/third_party/imgui_markdown/cmake_install.cmake",
+		"/Users/apple/Desktop/cppnb/build/third_party/ImPlot/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
