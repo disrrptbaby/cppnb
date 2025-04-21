@@ -1,2 +1,1 @@
-Sum: 12
-Product: 12
+9

@@ -89,14 +89,13 @@ cmake --build .
 ```
 cppnb/
 ├── src/
-│   ├── core/         # Notebook logic, cell linking
-│   ├── runtime/      # Compiler interface & metrics
 │   ├── ui/           # Notebook UI, cells, themes
 │   └── utils/        # Logging, markdown parser
-├── notebooks/        # Save your notebook files (.cppnb)
 ├── third_party/      # External libraries
 ├── build/            # Build artifacts
+├── fonts/            # fonts
 ├── main.cpp
+├── CMakeLists.txt
 └── README.md
 ```
 
