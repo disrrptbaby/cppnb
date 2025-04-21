@@ -42,7 +42,7 @@
 ### 🔧 Clone the repo
 
 ```bash
-git clone https://github.com/your-username/cppnb.git
+git clone https://github.com/Jeevan-04/cppnb.git
 cd cppnb
 ```
 
