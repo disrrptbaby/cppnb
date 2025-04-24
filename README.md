@@ -1,5 +1,8 @@
 # 🚀 cppnb – The C++ Notebook Experience
 
+<img src="https://github.com/user-attachments/assets/7633500f-ccba-4244-a8b5-18b8eac08899" width="700px">
+
+
 > Think Jupyter, but native. For C++.
 
 `cppnb` is a blazing-fast, interactive, Jupyter-style notebook for **C++**, powered by **Dear ImGui** and a suite of lightweight tools. Designed for developers, learners, and researchers who want a clean, hackable, and offline-first way to prototype, visualize, and explore C++ code in notebook-style cells — *just like Python notebooks, but natively compiled*.
