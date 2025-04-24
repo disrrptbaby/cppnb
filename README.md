@@ -1,6 +1,6 @@
 # 🚀 cppnb – The C++ Notebook Experience
 
-<img src="https://github.com/user-attachments/assets/7633500f-ccba-4244-a8b5-18b8eac08899" width="700px">
+<img src="https://github.com/user-attachments/assets/7633500f-ccba-4244-a8b5-18b8eac08899" width="500px">
 
 
 > Think Jupyter, but native. For C++.
